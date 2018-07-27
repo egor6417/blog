@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+	<title>BLOG @ EGOR</title> 
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="https://egor6417.github.io/blog/style.css">         
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+</script>
+</head>
+
+<body>
+<center>
+    <img class="mySlides" src="photo.jpg">
+    <img class="mySlides" src="photo0.jpg">
+    <img class="mySlides" src="photo1.jpg">
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+</center>
+</body>
