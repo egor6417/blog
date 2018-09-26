@@ -2,19 +2,24 @@
 		color:black;
 		position: center;
 		text-align: center;}				
-									
+
 html, body {
 	background-color: #F8FAF6 ;
-	text-color: black;}
-	
+	text-color: black;
+	padding-left: 10%;
+	padding-right: 10%;}
+								
 h1 {
 	font-family: 'Crimson Text', serif;}
 
-h1 {
-	font-family: 'Crimson Text', serif;}
-	
-h1 {
-	font-family: 'Crimson Text', serif;}
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 29px;}
+
+li {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height:1.5;} 
 	
 p {
 	font-family: 'Open Sans', sans-serif;}
